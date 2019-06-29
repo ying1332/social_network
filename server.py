@@ -46,6 +46,7 @@ def threaded_client(conn):
 
             conn.sendall(str.encode(reply))
         except:
+            print('cannot process the client')
             break
 
     print("Connection Closed")
