@@ -21,7 +21,7 @@ chat = 'freechat.txt'
 
 def send():
     network.send(write.get()).decode()
-    text.insert(END, write.get())
+    text.insert(END, str(write.get()) + '\n')
     with open(chat, 'w') as file:
         file.write(write.get())
 def random_chat():
