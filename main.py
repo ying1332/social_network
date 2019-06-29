@@ -1,3 +1,11 @@
+'''
+the main file
+main author:ben song
+other files author: @techwithtim
+requirements: look at requirements.txt
+'''
+
+
 from tkinter import *
 from tkinter.constants import *
 from network import Network
